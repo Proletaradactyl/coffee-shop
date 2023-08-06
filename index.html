@@ -13,36 +13,128 @@
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" />
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" />
 
+    <!--icons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/styles.scss" />
+    <link rel="stylesheet" href="css/style.css" />
 
 
-    <title>Document</title>
+    <title>Coffee Shop</title>
 </head>
 
+
+
+
 <body>
-    <h1>This is a test before group work</h1>
-    <!-- Content of the page goes here -->
+<!--header-->
+<header class="header">
 
-    <header>
-        <!-- Header content goes here -->
-    </header>
-
-    <nav>
-        <!-- Navigation content goes here -->
+    <div class="logo">
+        <img src="images/logo.png" alt="">
+    </div>
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
     </nav>
 
-    <main>
-        <!-- Main content of the page goes here -->
-    </main>
+    <div class="icons">
+        <div class="ri-search-line" id="search-btn"></div>
+        <div class="ri-shopping-cart-line" id="cart-btn"></div>
+        <div class="ri-menu-line" id="menu-btn"></div>
+    </div>
+</header>
 
-    <footer>
-        <!-- Footer content goes here -->
-    </footer>
 
-    <!-- JavaScript scripts and other additional content go here -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<!--home section-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>FRESH COFFEE</h3>
+        <p>Great coffee, amazing ambiance!</p>
+        <a href="#" class="btn">get yours now</a>
+    </div>
+</section>
 
+
+<!--about section-->
+<section class="about" id="about">
+    <h1 class="heading"><span>About</span> us </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="./images/about-img.jpeg" alt="">
+        </div>
+        <div class="content">
+            <h3>What makes our coffee so special ?</h3>
+            <p></p>
+            <p></p>
+            <a href="" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--contact section-->
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span>us</span> </h1>
+
+    <div class="row">
+
+
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="phone no">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+<!--contact section-->
+
+
+
+
+
+
+<!--footer-->
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="ri-global-line"></a>
+        <a href="#" class="ri-github-line"></a>
+        <a href="#" class="ri-linkedin-box-line"></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+    
+     
+        <a href="#contact">contact</a>
+    
+    </div>
+    
+    <div class="credit">Created By <span>Damian Priess, Kara Gresham, Anna Daves, Susan Lopez, Gloria Treider</span>  | <i class="far fa-copyright"></i> 2022 All rights reserved.</div>
+</section>
+<!--footer-->
 </body>
-
 </html>
